@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="stylesheet" href="./register.css">
+
+    <link
+      rel="stylesheet"
+      href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
+    />
+    <title>Latihan | Login</title>
+</head>
+<body>
+    <form action="" method="$_POST">
+        <div class="form_head">
+            <img src="asset/Privacy policy-rafiki.svg" alt="login">
+            <h1>LOGIN</h1>
+        </div>
+        <div class="username">
+            <label for="username">
+                <i class='bx bx-user'></i>
+                <input type="text" placeholder="Username" required>
+            </label>
+        </div>
+        <div class="email">
+            <label for="email">
+                <i class='bx bx-envelope'></i>
+                <input type="email" placeholder="Email" required>
+            </label>
+        </div>
+        <div class="password">
+            <label for="password">
+                <i class='bx bx-key'></i>
+                <input type="password" id="password" placeholder="Password" required>
+                <div class="hide_show">
+                    <i class='bx bx-show' id="see_pass"></i>
+                </div>
+            </label>
+        </div>
+        <div class="submit">
+            <button type="submit"><a href="/dasboard.html">LOGIN</a></button>
+        </div>
+
+        <p>Belum Punya Akun ? <a href="register.html">Daftar</a></p>
+    </form>
+
+    <script src="main.js"></script>
+</body>
+</html>
